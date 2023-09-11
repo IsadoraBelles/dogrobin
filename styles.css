@@ -1,0 +1,77 @@
+
+#introduction img {
+    border-radius: 5%;
+  }
+  body {
+    color: #4c4b16;
+    font-family: "Poppins", sans-serif;
+  }
+  #introduction h1 {
+    color: #007400 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.8rem;
+    line-height: 3.2rem !important;
+  }
+  #trainingfeatures h2 {
+    color: #0260a0 !important;
+  }
+  #trainingfeatures h3 {
+    font-size: 1.4rem !important;
+    color: #01adbd !important;
+  }
+  #trainingfeatures p {
+    font-size: 0.96rem;
+    font-weight: 300;
+  }
+  #trainingfeatures .row i {
+    font-size: 2rem;
+    color: #01adbd !important;
+  }
+  #navigation .btn-primary {
+    color: #fff;
+    background-color: #007400;
+    border-color: #007400;
+  }
+  #navigation .btn-primary:hover {
+    color: #007400;
+    background-color: #fff;
+    border-color: #007400;
+  }
+  #introduction .btn-primary {
+    color: #fff;
+    background-color: #54b435;
+    border-color: #54b435;
+  }
+  #introduction .btn-primary:hover {
+    color: #fff;
+    background-color: #007400;
+    border-color: #007400;
+  }
+  #calltoaction .btn-primary {
+    color: #fff;
+    background-color: #0260a0;
+    border-color: #0260a0;
+  }
+  #calltoaction .btn-primary:hover {
+    color: #fff;
+    background-color: #01adbd;
+    border-color: #01adbd;
+  }
+  #introduction .btn-outline-secondary {
+    color: #54b435;
+    border-color: #54b435;
+  }
+  #introduction .btn-outline-secondary:hover {
+    color: #007400;
+    background-color: #fff;
+    border-color: #007400;
+  }
+  #calltoaction .btn-outline-secondary {
+    color: #01adbd;
+    border-color: #01adbd;
+  }
+  #calltoaction .btn-outline-secondary:hover {
+    color: #0260a0;
+    background-color: #fff;
+    border-color: #0260a0;
+  }
