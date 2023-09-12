@@ -16,23 +16,21 @@
     />
     <link rel="stylesheet" href="./styles.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
     </style>
   </head>
 
   <body>
     <section id="navigation">
       <div class="container">
-        <header
-          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-        >
+        <header class="d-flex flex-wrap justify-content-center pt-4 mb-4">
           <span
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
           >
             <img
               src="./shield-dog-solid.svg"
               height="30"
-              class="me-3 opacity-75 icon-green"
+              class="me-3 ms-1 opacity-75"
             />
             Robin Wenham | Canine Relationship Specialist
           </span>
@@ -53,17 +51,50 @@
     <section id="introduction">
       <div class="container col-xxl-10 px-4 py-4">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="./Elle-Robin-selfie.JPEG"
-              class="d-block mx-lg-auto img-fluid"
-              alt="photo of Robin Wenham with alumni Elle, a small white fluffy dog with a big smile"
-              loading="lazy"
-            />
+          <div class="col col-sm-10 col-md-9 col-lg-6">
+            <div id="introimages" class="container text-center">
+              <div class="row pb-4 mx-0">
+                <div class="col ratio ratio-1x1 me-4">
+                  <img
+                    src="./Elle-Robin-selfie.JPEG"
+                    class="d-block mx-lg-auto img-fluid object-fit-cover"
+                    alt="photo of big smiles from Robin and alumni Elle, a small white fluffy dog"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="col align-self-end ratio ratio-1x1">
+                  <img
+                    src="./Bella-sleepy.jpg"
+                    class="d-block mx-lg-auto img-fluid object-fit-cover"
+                    alt="photo of Bella the German Shepherd as she learns to relax on the bed, though still monitoring Robin closely of course"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+
+              <div class="row pb-4 mx-0">
+                <div class="col ratio ratio-1x1 me-4">
+                  <img
+                    src="./Lucy-sleepysnuggles.jpg"
+                    class="d-block mx-lg-auto img-fluid object-fit-cover"
+                    alt="photo of Lucy the labrador fast asleep on Robin's chest, she knows that down time is so important when learning life skills"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="col ratio ratio-1x1">
+                  <img
+                    src="./Iklaq-kisses.jpg"
+                    class="d-block mx-lg-auto img-fluid object-fit-cover"
+                    alt="photo of Robin being licked in the face by Iklawq, a red husky, knocking Robin's glasses askew"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">
-              Bringing dogs and their owners together
+            <h1 class="fw-bold text-body-emphasis lh-2 mb-4">
+              Bridging the divide between dog and owner
             </h1>
             <p class="lead">
               Strengthening the human-animal bond while teaching your dog to be
@@ -71,10 +102,13 @@
             </p>
             <p class="lead">
               Comprehensive, consistent and intensive foundation and advanced
-              dog-training programs for busy professionals, I train your dog in
-              my home.
+              dog-training programs for busy professionals.
             </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
+            <p class="lead">I train your dog in my home.</p>
+
+            <div
+              class="d-grid gap-2 d-md-flex d-lg-none d-xl-flex justify-content-md-start my-4"
+            >
               <a
                 type="button"
                 class="btn btn-primary btn-lg px-4 gap-3"
@@ -89,17 +123,37 @@
               >
             </div>
           </div>
+          <div class="px-4 mt-4 d-none d-lg-block d-xl-none">
+            <div class="col mx-auto">
+              <div class="d-grid gap-2 d-sm-flex">
+                <a
+                  type="button"
+                  class="btn btn-primary btn-lg px-4 gap-3"
+                  href="mailto:dogrobin@gmail.com?subject=Book a consultation"
+                  >Book a consultation</a
+                >
+                <a
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg px-4"
+                  href="mailto:dogrobin@gmail.com?subject=More information please"
+                  >Request more info</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="trainingfeatures">
       <div class="container px-4 pt-5 pb-1" id="icon-grid">
-        <h2 class="pb-2 border-bottom fw-bold">
+        <h2 class="fw-bold">
           <i class="bi-mortarboard-fill me-2"></i>
           Boarding School for Dogs
         </h2>
-        <span class="lead ms-5">Giving your dog the education it deserves</span>
+        <h4 class="ps-5 pb-4 fw-light opacity-75 border-bottom">
+          Giving your dog the education it deserves
+        </h4>
 
         <div
           class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
@@ -201,8 +255,8 @@
     </section>
 
     <section id="calltoaction">
-      <div class="px-4 pb-5 mb-5 text-center">
-        <div class="col-lg-6 mx-auto">
+      <div class="px-4 pb-5 text-center">
+        <div class="col mx-auto">
           <p class="lead mb-4">
             Love the dog. Change the behavior that bothers you.
           </p>
@@ -226,33 +280,50 @@
 
     <section id="copyrightinformation">
       <div class="container">
-        <p class="mb-0 text-body-secondary small">
+        <p class="mb-0 pt-5 pb-4 ms-1 text-body-secondary small">
           Life changing Humane and Compassionate Education for you and your dog,
           from a Dog Psychologist and Behavior Therapist with over 25 years of
           experience.
         </p>
 
         <footer
-          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+          class="d-flex flex-wrap justify-content-between align-items-center pb-5 pt-4 border-top"
         >
           <div class="col-md-4 d-flex align-items-center">
-            <img src="./shield-dog-solid.svg" height="30" class="me-3" />
-            <span class="mb-3 mb-md-0 text-body-secondary small"
-              >© 2023 Robin Wenham</span
+            <img
+              src="./shield-dog-solid.svg"
+              height="30"
+              class="me-3 ms-1 opacity-75"
+            />
+            <span class="b-3 mb-md-0 mt-1 text-body-secondary small">
+              <i class="bi-c-circle me-2"></i>
+              2023 Robin Wenham</span
             >
           </div>
 
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
               <a
-                class="text-body-secondary" target="_blank"
+                class="text-body-secondary"
+                target="_blank"
                 href="https://www.facebook.com/robin.wenham/"
-                ><img src="./facebook.svg" height="30" class="me-3" alt="Let's connect"
+                ><img
+                  src="./facebook.svg"
+                  height="30"
+                  class="me-3"
+                  alt="Let's connect"
               /></a>
             </li>
             <li class="ms-3">
-              <a class="text-body-secondary" target="_blank" href="https://stickydogblog.com/"
-                ><img src="./quote.svg" height="30" class="me-3" alt="Go read my blog"
+              <a
+                class="text-body-secondary"
+                target="_blank"
+                href="https://stickydogblog.com/"
+                ><img
+                  src="./quote.svg"
+                  height="30"
+                  class="me-3"
+                  alt="Go read my blog"
               /></a>
             </li>
           </ul>
